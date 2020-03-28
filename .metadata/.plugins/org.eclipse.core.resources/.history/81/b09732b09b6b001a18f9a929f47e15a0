@@ -1,0 +1,13 @@
+//隐藏就是 修改element的display属性 
+function hideElement(element) {
+	    element.style.display = 'none';
+        }
+
+	function showElement(element, style) {
+	    var displayStyle = style ? style : 'block';
+	    element.style.display = displayStyle;
+	}
+	
+	function clearLoginError() {
+	    document.querySelector('#login-error').innerHTML = '';
+	}
